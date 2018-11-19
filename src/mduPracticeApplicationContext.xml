@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This is the factory for the beans-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+<!--Add an Entry to enable component scanning-->
+    <context:component-scan base-package="mdu.practice" />
+
+    <!--dependency beans-->
+    <!--<bean id="desktopBox" class="mdu.practice.DesktopBox">-->
+
+    <!--</bean>-->
+    <!--<bean id="laptopBox" class="mdu.practice.LaptopBox">-->
+
+    <!--</bean>-->
+    <!--<bean id="speakerBox" class="mdu.practice.SpeakerBox"></bean>-->
+
+    <!--<bean id="desktop"-->
+        <!--class="mdu.practice.Desktop">-->
+
+    <!--</bean>-->
+    <!--<bean id="laptop"-->
+    <!--class="mdu.practice.Laptop">-->
+
+    <!--</bean>-->
+    <!--<bean id="speaker"-->
+        <!--class="mdu.practice.Speaker">-->
+    <!--</bean>-->
+
+</beans>
+
+
+
+
+
